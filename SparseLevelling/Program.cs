@@ -22,7 +22,7 @@ namespace SparseLevelling
     /// - bed origin is in the front left and has coordinates(0,0)
     /// - start gcode ends with "; End Start G-code" or whatever is set below
     /// - end gcode begins with "; Begin End G-code" or whatever is set below
-    /// - there is a pair of lines containing "; BEGIN LEVEL" and "; END LEVEL". These lines and anything in between is replaces by the output of this script
+    /// - there is a pair of lines containing "; BEGIN LEVEL" and "; END LEVEL". These lines and anything in between is replaced by the output of this script.
     /// </summary>
     class Program
     {
